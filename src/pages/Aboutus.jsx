@@ -18,7 +18,7 @@ function Aboutus() {
           />
         </div>
 
-        <div className="flex flex-col  justify-center items-center gap-4 mt-2 md:mt-4">
+        <div className="flex flex-col    justify-center items-center gap-4 mt-2 md:mt-4">
           <img
             src="/images/img2.gif"
             alt="Image 2"
