@@ -21,7 +21,7 @@ function Footer() {
       <div className="flex flex-col lg:flex-row justify-between items-start gap-10 px-5 pt-10">
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col sm:flex-row gap-4"
+          className="flex flex-col sm:flex-row gap-4 "
         >
           <input
             type="email"
