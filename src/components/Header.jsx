@@ -9,7 +9,7 @@ function Header() {
 
       <div className="mt-4">
         <img
-          src="./public/images/logo.png"
+          src="./public/images/logo.jpg"
           alt="logo"
           className="w-20 h-20 mx-auto"
         />
