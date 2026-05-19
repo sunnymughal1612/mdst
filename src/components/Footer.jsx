@@ -10,19 +10,15 @@ function Footer() {
   };
 
   return (
-    <div className=" w-full">
-      
-      
+    <div>
       <div className="pl-5 pt-20">
         <p className="text-xl text-black font-semibold">
-          JOIN THE WAITLIST: BE FIRST TO SHOP OUR MODEST COLLECTION WHEN WE LAUNCH.
+          JOIN THE WAITLIST: BE FIRST TO SHOP OUR MODEST COLLECTION WHEN WE
+          LAUNCH.
         </p>
       </div>
 
-      
       <div className="flex flex-col lg:flex-row justify-between items-start gap-10 px-5 pt-10">
-
-        
         <form
           onSubmit={handleSubmit}
           className="flex flex-col sm:flex-row gap-4"
@@ -43,41 +39,37 @@ function Footer() {
           </button>
         </form>
 
-        
         <div className="flex gap-4 mt-2 lg:mt-0">
-          <a
-            href="https://www.facebook.com/people/MDST-Market/61573840771917/"
+          <Link
+            to="https://www.facebook.com/people/MDST-Market/61573840771917/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/images/f.png" alt="facebook" className="w-4 h-4" />
-          </a>
+          </Link>
 
-          <a
-            href="https://www.instagram.com/mdst_market/"
+          <Link
+            to="https://www.instagram.com/mdst_market/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/images/i.png" alt="instagram" className="w-4 h-4" />
-          </a>
+          </Link>
 
-          <a
-            href="https://www.tiktok.com/@mdst.market"
+          <Link
+            to="https://www.tiktok.com/@mdst.market"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/images/tt.png" alt="tiktok" className="w-4 h-4" />
-          </a>
+          </Link>
         </div>
       </div>
 
-      {/* Bottom Footer */}
+      
       <div className="bg-gray-50 text-sm text-gray-500 mt-10">
         <ul className="flex flex-wrap gap-5 ml-5 py-5 items-center">
-          
-          <li>
-            2025, MDST Market · 28 Church Street, Winchester, MA 01890
-          </li>
+          <li>2025, MDST Market · 28 Church Street, Winchester, MA 01890</li>
 
           <li>
             <Link to="/contact" className="text-blue-600">
@@ -90,7 +82,6 @@ function Footer() {
               Privacy Policy
             </Link>
           </li>
-
         </ul>
       </div>
     </div>
